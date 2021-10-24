@@ -1,0 +1,8 @@
+wikipedia
+wolframalpha
+datetime
+wheel
+requests
+pyjokes
+flask
+pyttsx3
