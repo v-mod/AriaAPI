@@ -11,7 +11,7 @@ def check(statement):
     elif 'who made you' in statement or 'who are you' in statement or 'what are you' in statement or 'when were you made' in statement:
         return'_Hi, My name is Aria and I was made by Vivaan Modi. I am an AI Assistant powered by the internet of things. You can ask me any question you like. I was born in March 2021'
         
-    elif ' time' in statement:
+    elif ' time' in statement and 'times' not in statement:
         return '_'+AriaAI.get_time()
     
     elif 'email' in statement:
